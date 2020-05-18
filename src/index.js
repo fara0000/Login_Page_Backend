@@ -1,7 +1,7 @@
 const Server = require('./Server');
 
 function init() {
-    const server = new Server(5000);
+    const server = new Server(3000);
     server.start();
 }
 

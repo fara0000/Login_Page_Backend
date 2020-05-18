@@ -1,6 +1,6 @@
 class Controller{
-    constructor(model) {
-        this.model = model;
+    constructor(mongodb) {
+        this.mongodb = mongodb;
     }    
 }
 module.exports = Controller;
