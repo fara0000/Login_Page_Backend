@@ -1,0 +1,38 @@
+{
+  "name": "login_page_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "webpack-dev-server --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fara0000/Login_Page_Backend.git"
+  },
+  "author": "FE team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fara0000/Login_Page_Backend/issues"
+  },
+  "homepage": "https://github.com/fara0000/Login_Page_Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "@babel/core": "7.7.4",
+    "@babel/plugin-proposal-class-properties": "7.7.4",
+    "@babel/preset-env": "7.7.4",
+    "babel": "6.23.0",
+    "babel-cli": "6.26.0",
+    "babel-loader": "8.0.6",
+    "file-loader": "^5.0.2",
+    "image-webpack-loader": "^6.0.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-dev-server": "3.9.0",
+    "mongodb": "^3.5.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
